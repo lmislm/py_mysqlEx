@@ -5,7 +5,7 @@ com.__init__|1495933546855047000|D:\py_mysqlEx\py-sql1\com\__init__.py
 com.test.test_iud|1495945092182000000|D:\py_mysqlEx\py-sql1\com\test\test_iud.py
 com.test.test_cursor|1495944853469861000|D:\py_mysqlEx\py-sql1\com\test\test_cursor.py
 com.test.hello|1495939799631572000|D:\py_mysqlEx\py-sql1\com\test\hello.py
-com.test.test_select|1495945092182694000|D:\py_mysqlEx\py-sql1\com\test\test_select.py
+com.test.test_select|1495946325696032000|D:\py_mysqlEx\py-sql1\com\test\test_select.py
 com.test.test_connection|1495940636146512000|D:\py_mysqlEx\py-sql1\com\test\test_connection.py
 com.test.test_mysqldb|1495940762118516000|D:\py_mysqlEx\py-sql1\com\test\test_mysqldb.py
 com.test.__init__|1495933546862054000|D:\py_mysqlEx\py-sql1\com\test\__init__.py
@@ -18,12 +18,25 @@ com.test.__init__|1495933546862054000|D:\py_mysqlEx\py-sql1\com\test\__init__.py
 2=com.test.test_connection
 -- END DICTIONARY
 -- START TREE 1
-4
+9
 con|4|conn!11@conn!19@conn!27@conn!35@
 cur|4|cursor!27@cursor!35@cursor!19@cursor!11@
-rs|3|rs!11@rs!35@rs!27@
-sql|3|sql!11@sql!27@sql!35@
+mon|0|
+rs|2|rs!11@rs!27@
+sou|0|
+sql|5|sql_insert!35@sql_delete!35@sql!11@sql_update!35@sql!27@
+tar|0|
+tr_|0|
+tra|0|
 -- END TREE
 -- START TREE 2
-0
+8
+__i|0|
+_in|0|
+add|0|
+che|0|
+con|0|
+has|0|
+red|0|
+tra|0|
 -- END TREE
