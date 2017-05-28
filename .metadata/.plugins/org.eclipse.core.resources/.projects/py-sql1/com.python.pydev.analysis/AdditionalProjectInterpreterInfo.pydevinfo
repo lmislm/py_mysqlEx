@@ -1,0 +1,17 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\py_mysqlEx\.metadata\.plugins\org.eclipse.core.resources\.projects\py-sql1\com.python.pydev.analysis\v2_indexcache
+com.__init__|1495933546855047000|D:\py_mysqlEx\py-sql1\com\__init__.py
+com.test.hello|1495937339648677000|D:\py_mysqlEx\py-sql1\com\test\hello.py
+com.test.test_mysqldb|1495938870258408000|D:\py_mysqlEx\py-sql1\com\test\test_mysqldb.py
+com.test.__init__|1495933546862054000|D:\py_mysqlEx\py-sql1\com\test\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+0
+-- END DICTIONARY
+-- START TREE 1
+0
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

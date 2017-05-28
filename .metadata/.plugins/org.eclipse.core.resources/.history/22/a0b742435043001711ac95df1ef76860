@@ -1,0 +1,8 @@
+'''
+Created on 2017Äê5ÔÂ28ÈÕ
+
+@author: Administrator
+'''
+
+import MySQLdb
+print MySQLdb

@@ -1,0 +1,10 @@
+'''
+Created on 2017Äê5ÔÂ28ÈÕ
+
+@author: Administrator
+'''
+#!/usr/bin/python
+# -*- coding: utf8 -*-
+
+import MySQLdb
+print MySQLdb

@@ -1,0 +1,9 @@
+'''
+Created on 2017Äê5ÔÂ28ÈÕ
+
+@author: Administrator
+'''
+#coding:utf-8
+
+import MySQLdb
+print MySQLdb
