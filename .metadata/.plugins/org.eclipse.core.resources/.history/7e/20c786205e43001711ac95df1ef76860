@@ -14,22 +14,11 @@ conn = MySQLdb.Connect(
                        )
 cursor = conn.cursor()
 
-sql_insert = "insert into tb0(userid,username) values(9,'name9')"
-sql_update= "update user set username='name91' where userid=9"
-sql_delete = "delete from tb0 where userid<3"
+sql = "select * from tb0"
+cursor.execute(sql)
 
-try:
-    cursor.execute(sql_insert)
-    print cursor.rowcount
-    cursor.execute(sql_update)
-    print cursor.rowcount
-    cursor.execute(sql_delete)
-    print cursor.rowcount
-    
-    conn.commit()
-except Exception as e:
-    print e
-    conn.rollback()
-
+rs = cursor.fetchall()
+for row in rs:
+    print "userid=%s, username=%s" %row
 cursor.close()
 conn.close()

@@ -1,1 +1,9 @@
-DELSTRcom.test.test_mysqldb
+INSTUPcom.test.test_select
+D:\py_mysqlEx\py-sql1\com\test\test_select.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0
+sql_insert=4
+cursor=3
+conn=1
+sql_update=5
+com.test.test_select=2
+sql_delete=6

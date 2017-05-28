@@ -2,15 +2,27 @@
 -- START DISKCACHE_2
 D:\py_mysqlEx\.metadata\.plugins\org.eclipse.core.resources\.projects\py-sql1\com.python.pydev.analysis\v2_indexcache
 com.__init__|1495933546855047000|D:\py_mysqlEx\py-sql1\com\__init__.py
-com.test.hello|1495937339648677000|D:\py_mysqlEx\py-sql1\com\test\hello.py
-com.test.test_mysqldb|1495938870258408000|D:\py_mysqlEx\py-sql1\com\test\test_mysqldb.py
+com.test.test_iud|1495945092182000000|D:\py_mysqlEx\py-sql1\com\test\test_iud.py
+com.test.test_cursor|1495944853469861000|D:\py_mysqlEx\py-sql1\com\test\test_cursor.py
+com.test.hello|1495939799631572000|D:\py_mysqlEx\py-sql1\com\test\hello.py
+com.test.test_select|1495945092182694000|D:\py_mysqlEx\py-sql1\com\test\test_select.py
+com.test.test_connection|1495940636146512000|D:\py_mysqlEx\py-sql1\com\test\test_connection.py
+com.test.test_mysqldb|1495940762118516000|D:\py_mysqlEx\py-sql1\com\test\test_mysqldb.py
 com.test.__init__|1495933546862054000|D:\py_mysqlEx\py-sql1\com\test\__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
-0
+4
+3=com.test.test_iud
+1=com.test.test_cursor
+4=com.test.test_select
+2=com.test.test_connection
 -- END DICTIONARY
 -- START TREE 1
-0
+4
+con|4|conn!11@conn!19@conn!27@conn!35@
+cur|4|cursor!27@cursor!35@cursor!19@cursor!11@
+rs|3|rs!11@rs!35@rs!27@
+sql|3|sql!11@sql!27@sql!35@
 -- END TREE
 -- START TREE 2
 0
