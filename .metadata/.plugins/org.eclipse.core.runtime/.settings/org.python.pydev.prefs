@@ -13,3 +13,4 @@ PYDEV_FUNDING_SHOWN_2016=true
 SELF_COLOR=88,88,88
 STRING_COLOR=49,126,204
 eclipse.preferences.version=1
+org.python.pydev.editor.templates.PyTemplatePreferencesPage=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="org.python.pydev.editor.templates.python.modules" deleted\="false" description\="Module\: Empty" enabled\="true" id\="org.python.pydev.editor.templates.python.module.empty" name\="&lt;Empty&gt;">\# -*- coding\: UTF-8 -*-  \r\n'''\r\nCreated on ${date} @author\: ${user}\r\n'''\r\n${cursor}</template></templates>
