@@ -7,17 +7,12 @@ class TransferMoney(object):
     def _init_(self,conn):
         self.conn = conn
     def transfer(self,source_acctid,target_acctid,money)
-        try:
-            self.check_acct_available(source_acctid)
-            self.check_acct_available(source_acctid)
-            self.has_enough_money(source_acctid,money)
-            self.reduce_money(source_acctid,money)
-            self.add_money(target_acctid,money)
-            self.conn.commit()
-        except Exception as e:
-            self.conn.rollback()
-            raise e
-        
+        self.check_acct_available(source_acctid)
+        self.check_acct_available(source_acctid)
+        self.has_enough_money(source_acctid,money)
+        self.reduce_money(source_acctid,money)
+        self.add_money(target_acctid,money)
+        self.conn.commit()
 
 
 
