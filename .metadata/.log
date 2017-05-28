@@ -1649,3 +1649,22 @@ Caused by: java.lang.ClassCastException: org.eclipse.e4.core.commands.Expression
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
 	... 50 more
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-05-28 12:52:46.308
+!MESSAGE No message gotten (null message).
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1055)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1182)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:929)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:337)
+	at org.python.pydev.shared_core.string.TextSelectionUtils.getStartLine(TextSelectionUtils.java:164)
+	at org.python.pydev.editor.refactoring.RefactoringRequest.getBeginCol(RefactoringRequest.java:201)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:78)
+	at com.python.pydev.refactoring.refactorer.RefactorerFindDefinition.findDefinition(RefactorerFindDefinition.java:63)
+	at com.python.pydev.refactoring.refactorer.Refactorer.findDefinition(Refactorer.java:119)
+	at com.python.pydev.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:110)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

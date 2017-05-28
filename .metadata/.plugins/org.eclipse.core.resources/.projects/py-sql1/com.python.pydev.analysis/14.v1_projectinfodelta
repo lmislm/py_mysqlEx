@@ -1,0 +1,9 @@
+INSTUPcom.test.transfer_money
+D:\py_mysqlEx\py-sql1\com\test\transfer_money.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0
+conn=5
+com.test.transfer_money=2
+tr_money=6
+money=4
+source_acctid=1
+target_acctid=3
