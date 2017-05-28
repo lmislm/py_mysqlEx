@@ -3,9 +3,13 @@
 > 注：备份了可能用到的.sql，在目录中，以便专注python，
 #### 基本环境
 > python-2.7.9.msi （移步搜狐镜像）
+
 > MySQL-python-1.2.5.win32-py2.7.exe（source net中有下载）
-> mysql 5.5版本（注意慕课网中是5.6版本，此项目无差距，配置请看预备知   识）
+
+> mysql 5.5版本（注意慕课网中是5.6版本，此项目无差距，配置请看预备知识）
+
 > eclipse PyDev插件（help中安装插件，具体自行）
+
 > sql可视化工具 SQLyog Ultimate
 
 #### 预备知识
